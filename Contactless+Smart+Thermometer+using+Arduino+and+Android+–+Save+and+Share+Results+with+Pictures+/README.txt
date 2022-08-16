@@ -1,0 +1,1 @@
+Contactless Smart Thermometer using Arduino and Android – Save and Share Results with Pictures  by Circuitdigest on Thingiverse: https://www.thingiverse.com/thing:4555207
