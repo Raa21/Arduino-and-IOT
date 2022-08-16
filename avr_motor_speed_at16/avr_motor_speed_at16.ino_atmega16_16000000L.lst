@@ -1,0 +1,201 @@
+
+C:\Users\RAJEND~1\AppData\Local\Temp\arduino_build_83785/avr_motor_speed_at16.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+   8:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+   c:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  10:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  14:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  18:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  1c:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  20:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  24:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  28:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  2c:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  30:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  34:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  38:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  3c:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  40:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  44:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  48:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  4c:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+  50:	0c 94 3c 00 	jmp	0x78	; 0x78 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+__trampolines_start():
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+
+00000060 <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+  60:	20 e0       	ldi	r18, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+  62:	a0 e6       	ldi	r26, 0x60	; 96
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+  64:	b0 e0       	ldi	r27, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+  66:	01 c0       	rjmp	.+2      	; 0x6a <.do_clear_bss_start>
+
+00000068 <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+  68:	1d 92       	st	X+, r1
+
+0000006a <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+  6a:	a0 36       	cpi	r26, 0x60	; 96
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+  6c:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+  6e:	e1 f7       	brne	.-8      	; 0x68 <.do_clear_bss_loop>
+.do_clear_bss_start():
+  70:	0e 94 54 00 	call	0xa8	; 0xa8 <main>
+  74:	0c 94 6f 00 	jmp	0xde	; 0xde <_exit>
+
+00000078 <__bad_interrupt>:
+__vector_1():
+  78:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000007c <ADC_Init()>:
+_Z8ADC_Initv():
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:11
+
+volatile uint8_t Direction = 0;
+
+void ADC_Init()       /* ADC Initialization function */
+{
+  DDRA = 0x00;      /* Make ADC port as input */
+  7c:	1a ba       	out	0x1a, r1	; 26
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:12
+  ADCSRA = 0x87;      /* Enable ADC, with freq/128 */
+  7e:	87 e8       	ldi	r24, 0x87	; 135
+  80:	86 b9       	out	0x06, r24	; 6
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:13
+  ADMUX = 0x40;     /* Vref: Avcc, ADC channel: 0 */
+  82:	80 e4       	ldi	r24, 0x40	; 64
+  84:	87 b9       	out	0x07, r24	; 7
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:14
+}
+  86:	08 95       	ret
+
+00000088 <ADC_Read(char)>:
+_Z8ADC_Readc():
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:18
+
+int ADC_Read(char channel)    /* ADC Read function */
+{
+  ADMUX = 0x40 | (channel & 0x07);/* set input channel to read */
+  88:	87 70       	andi	r24, 0x07	; 7
+  8a:	80 64       	ori	r24, 0x40	; 64
+  8c:	87 b9       	out	0x07, r24	; 7
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:19
+  ADCSRA |= (1<<ADSC);    /* Start ADC conversion */
+  8e:	36 9a       	sbi	0x06, 6	; 6
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:20
+  while (!(ADCSRA & (1<<ADIF)));  /* Wait until end of conversion */
+  90:	34 9b       	sbis	0x06, 4	; 6
+  92:	fe cf       	rjmp	.-4      	; 0x90 <ADC_Read(char)+0x8>
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:21
+  ADCSRA |= (1<<ADIF);    /* Clear interrupt flag */
+  94:	34 9a       	sbi	0x06, 4	; 6
+_delay_ms():
+c:\users\rajenda bera\appdata\local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\avr\include\util/delay.h:187
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  96:	8f e9       	ldi	r24, 0x9F	; 159
+  98:	9f e0       	ldi	r25, 0x0F	; 15
+  9a:	01 97       	sbiw	r24, 0x01	; 1
+  9c:	f1 f7       	brne	.-4      	; 0x9a <ADC_Read(char)+0x12>
+  9e:	00 c0       	rjmp	.+0      	; 0xa0 <ADC_Read(char)+0x18>
+  a0:	00 00       	nop
+_Z8ADC_Readc():
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:23
+  _delay_ms(1);     /* Wait a little bit */
+  return ADCW;      /* Return ADC word */
+  a2:	84 b1       	in	r24, 0x04	; 4
+  a4:	95 b1       	in	r25, 0x05	; 5
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:24
+}
+  a6:	08 95       	ret
+
+000000a8 <main>:
+main():
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:27
+int main(void)
+{
+  DDRC = 0xFF;      /* Make PORTC as output Port */
+  a8:	8f ef       	ldi	r24, 0xFF	; 255
+  aa:	84 bb       	out	0x14, r24	; 20
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:28
+  DDRD &= ~(1<<PD2);    /* Make INT0 pin as Input */
+  ac:	8a 98       	cbi	0x11, 2	; 17
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:29
+  DDRB |= (1<<PB3);   /* Make OC0 pin as Output */
+  ae:	bb 9a       	sbi	0x17, 3	; 23
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:30
+  GICR = (1<<INT0);   /* Enable INT0*/
+  b0:	80 e4       	ldi	r24, 0x40	; 64
+  b2:	8b bf       	out	0x3b, r24	; 59
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:31
+  MCUCR = ((1<<ISC00)|(1<<ISC01));/* Trigger INT0 on Rising Edge triggered */
+  b4:	83 e0       	ldi	r24, 0x03	; 3
+  b6:	85 bf       	out	0x35, r24	; 53
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:32
+  sei();        /* Enable Global Interrupt */
+  b8:	78 94       	sei
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:33
+  ADC_Init();     /* Initialize ADC */
+  ba:	0e 94 3e 00 	call	0x7c	; 0x7c <ADC_Init()>
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:34
+  TCNT0 = 0;      /* Set timer0 count zero */
+  be:	12 be       	out	0x32, r1	; 50
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:35
+  TCCR0 = (1<<WGM00)|(1<<WGM01)|(1<<COM01)|(1<<CS00)|(1<<CS01);/* Set Fast PWM with Fosc/64 Timer0 clock */
+  c0:	8b e6       	ldi	r24, 0x6B	; 107
+  c2:	83 bf       	out	0x33, r24	; 51
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:39
+  while(1)
+  {
+    
+    PORTC = 1;
+  c4:	c1 e0       	ldi	r28, 0x01	; 1
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:39 (discriminator 1)
+  c6:	c5 bb       	out	0x15, r28	; 21
+C:\Users\Rajenda Bera\Documents\Arduino\avr_motor_speed_at16/avr_motor_speed_at16.ino:41 (discriminator 1)
+    
+    OCR0 = (ADC_Read(0)/4); /* Read ADC and map it into 0-255 to write in OCR0 register */
+  c8:	80 e0       	ldi	r24, 0x00	; 0
+  ca:	0e 94 44 00 	call	0x88	; 0x88 <ADC_Read(char)>
+  ce:	97 fd       	sbrc	r25, 7
+  d0:	03 96       	adiw	r24, 0x03	; 3
+  d2:	95 95       	asr	r25
+  d4:	87 95       	ror	r24
+  d6:	95 95       	asr	r25
+  d8:	87 95       	ror	r24
+  da:	8c bf       	out	0x3c, r24	; 60
+  dc:	f4 cf       	rjmp	.-24     	; 0xc6 <main+0x1e>
+
+000000de <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+  de:	f8 94       	cli
+
+000000e0 <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+  e0:	ff cf       	rjmp	.-2      	; 0xe0 <__stop_program>
